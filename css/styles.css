@@ -1,0 +1,174 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* add the above to all documents to remove all default margins and padding*/
+body {
+  background-color: hsl(0, 0%, 98%);
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  color: hsl(234, 12%, 34%);
+  text-align: center;
+  font-size: 45px;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: hsl(234, 12%, 34%);
+  text-align: left;
+  font-size: 15pt;
+}
+
+h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  color: hsl(229, 6%, 66%);
+  text-align: center;
+  font-size: 18px;
+}
+
+h4 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  color: hsl(229, 6%, 66%);
+  text-align: left;
+  font-size: 13px;
+}
+
+.firstheader {
+  margin: 0;
+}
+
+.secondheader {
+  font-weight: 600;
+  padding-bottom: 22px;
+}
+
+.top-container {
+  max-width: 680px;
+  position: relative;
+  padding: 72px 32px 56px 32px;
+  margin-left: auto;
+  margin-right: auto;
+  /*use multiples of  8 for px size padding/grid*/
+}
+
+.bottom-container {
+  max-width: 1146px;
+  margin: auto;
+  position: relative;
+}
+.stack-container {
+  width: 33%;
+  position: relative;
+  display: inline-block;
+  margin-right: -4px;
+  vertical-align: top;
+  /* to eliminate gap with inline block add -4px*/
+}
+
+.stack-container-3 {
+  width: 33%;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.card {
+  height: 186px;
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 0px 5px 20px hsl(212, 40%, 85%);
+  padding: 24px 32px;
+  margin: 0 16px 32px 16px;
+  position: relative;
+}
+
+.title {
+  padding-bottom: 10px;
+}
+.topbordercyan {
+  border-top-style: solid;
+  border-top-width: 6px;
+  border-top-color: hsl(180, 62%, 55%);
+}
+
+.topborderred {
+  border-top-style: solid;
+  border-top-width: 6px;
+  border-top-color: hsl(0, 78%, 62%);
+}
+
+.topborderorange {
+  border-top-style: solid;
+  border-top-width: 6px;
+  border-top-color: hsl(34, 97%, 64%);
+}
+
+.topborderblue {
+  border-top-style: solid;
+  border-top-width: 6px;
+  border-top-color: hsl(212, 86%, 64%);
+}
+
+.icon {
+  position: absolute;
+  bottom: 32px;
+  right: 32px;
+}
+
+.middleposition {
+  top: 140px;
+  position: relative;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 720px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  h3 {
+
+    font-size: 14px;
+  }
+
+  .stack-container {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .stack-container-3 {
+    width: 100%;
+  }
+
+  .middleposition {
+    top: 0;
+  }
+
+  .bottom-container {
+    max-width: 540px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .top-container {
+    max-width: 480px;
+    padding: 72px 40px 56px 40px;
+  }
+}
